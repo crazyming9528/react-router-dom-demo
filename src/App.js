@@ -5,7 +5,7 @@ import './App.scss';
 class App extends React.Component {
 
     render() {
-        let name = ["crazyming", "王东明", "王磊"];
+        let name = ["crazyming", "ming2", "ming3"];
         const vUl = <ul>{name.map((name, index) => <li key={index}>{name}</li>)} </ul>
         return (<div>
             {vUl}

@@ -30,6 +30,7 @@
       left: 50%;
       transform: translate(-50%,-50%);
       overflow: hidden;
+      text-align: left;
       input{
         width: 260px;
         height: 40px;
@@ -40,16 +41,26 @@
         padding: 5px;
         box-sizing: border-box;
       }
-      button{
-        background-color: #3099d5;
-        border: none;
-        cursor: pointer;
-        color: white;
-        width: 100px;
-        height: 30px;
-        line-height: 30px;
-        margin-top: 30px;
+
+      .button_group{
+        text-align: center;
+        button{
+          background-color: #3099d5;
+          border: none;
+          cursor: pointer;
+          color: white;
+          width: 100px;
+          height: 30px;
+          line-height: 30px;
+          margin-top: 30px;
+          transition: all .3s;
+          &:hover{
+            background-color: darken(#3099d5,10);
+          }
+        }
+
       }
+
 
 
     }
