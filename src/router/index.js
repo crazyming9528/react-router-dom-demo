@@ -13,7 +13,7 @@ import NotFound from '../pages/sys/not-found' //404 错误提示页
 
 
 const R = () => (
-    <HashRouter basename={'/child'}>
+    <HashRouter >
         <Switch>
             <Route path="/login" component={Login}/>
             <Route path="/not-found" component={NotFound}/>
