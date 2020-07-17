@@ -8,7 +8,7 @@ import {withRouter,Link} from 'react-router-dom'
         return (
             <div className="main_wrapper">
                 <div className="menu">
-                    <h1>react-router-dom 实践</h1>
+                    <h1>Create React App <span style={{fontSize:'10px'}}>react-router-dom</span></h1>
                     <Link to="/">首页</Link>
                     <Link to="/list">商品列表</Link>
                     <Link to="/about">关于</Link>

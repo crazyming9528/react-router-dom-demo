@@ -11,7 +11,6 @@ import About from "../pages/about"; //关于页面
 import Login from '../pages/auth/login' //登录页面
 import NotFound from '../pages/sys/not-found' //404 错误提示页
 
-
 const R = () => (
     <HashRouter >
         <Switch>
